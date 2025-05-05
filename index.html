@@ -11,7 +11,7 @@
 
 </head>
 
-<body onload = "init()">
+<body onload="init()">
     <div class="container">
         <h1>Tienda Interactiva</h1>
         <select class="form-select" aria-label="Default select example" id="categoria"> Categoría de productos
@@ -19,21 +19,23 @@
             <option value="c2">Pantalon</option>
             <option value="c3">Zapatos</option>
         </select>
-        <div class="card" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card">
             <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div id="card1"></div>
             </div>
-            <button type="button" class="btn-warning boton">Agregar</button>
         </div>
+
+        <div id="carrito">
+            
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
         crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
